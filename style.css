@@ -50,3 +50,8 @@ rue::after {
 pays,tel,mail {
 	display: block;
 }
+
+adresse::after {
+	content: '-----';
+	display: block;
+}
