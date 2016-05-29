@@ -42,11 +42,7 @@ naissance {
 }
 
 /* style du bloc "contact" */
-rue,cp {
-	display: inline;
-}
-
-rue::after,cp::before {
+rue::after {
 	content: '\00000A';
 	display: block;
 }
