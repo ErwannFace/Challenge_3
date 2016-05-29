@@ -52,11 +52,26 @@ nom {
 	text-transform: uppercase;
 }
 
+naissance::before {
+	content: 'né le ';
+	display: inline;
+}
+
 naissance {
 	display: block;
 }
 
+site::before {
+	content: 'site web : ';
+	display: inline;
+}
+
 /* style du bloc "contact" */
+adresse::before {
+	content: 'adresse : ';
+	display: block;
+}
+
 rue::after {
 	content: '';
 	display: block;
@@ -77,4 +92,14 @@ ville {
 
 pays {
 	text-transform: uppercase;
+}
+
+tel::before {
+	content: 'tel : ';
+	display: inline;
+}
+
+mail::before {
+	content: 'e-mail : ';
+	display: inline;
 }
