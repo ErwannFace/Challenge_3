@@ -43,7 +43,7 @@ naissance {
 
 /* style du bloc "contact" */
 rue::after {
-	content: '\00000A';
+	content: '';
 	display: block;
 }
 
