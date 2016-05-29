@@ -125,3 +125,7 @@ mail {
 formation * {
 	display: block;
 }
+
+intitule {
+	font-weight: 700;
+}
