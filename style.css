@@ -66,6 +66,7 @@ site::before {
 section:first-child article:last-child {
 	position: absolute;
 	right: 5%;
+	text-align: left;
 }
 
 adresse::before {
@@ -75,10 +76,6 @@ adresse::before {
 
 rue::after {
 	content: '';
-	display: block;
-}
-
-pays,tel,mail {
 	display: block;
 }
 
@@ -95,6 +92,11 @@ pays {
 	text-transform: uppercase;
 }
 
+pays::before {
+	content: '- ';
+	display: inline;
+}
+
 tel::before {
 	content: 'tel : ';
 	display: inline;
@@ -103,4 +105,8 @@ tel::before {
 mail::before {
 	content: 'e-mail : ';
 	display: inline;
+}
+
+mail {
+	display: block;
 }
