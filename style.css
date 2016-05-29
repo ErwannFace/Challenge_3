@@ -29,6 +29,22 @@ section:first-child article {
 }
 
 /* style du bloc "identite" */
+section:first-child {
+	min-height: 200px;
+}
+
+section:first-child article:first-child {
+	float: left;
+}
+
+section:first-child article:last-child {
+	float: right;
+}
+
+section:first-child article:last-child::after {
+	clear: both;
+}
+
 prenom {
 	text-transform: capitalize;
 }
