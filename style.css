@@ -120,3 +120,8 @@ mail::before {
 mail {
 	display: block;
 }
+
+/* style du bloc "formation" */
+formation * {
+	display: block;
+}
