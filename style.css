@@ -60,6 +60,8 @@ naissance {
 site::before {
 	content: 'site web : ';
 	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
 }
 
 /* style du bloc "contact" */
@@ -72,6 +74,8 @@ section:first-child article:last-child {
 adresse::before {
 	content: 'adresse : ';
 	display: block;
+	font-size: 0.8em;
+	font-weight: 700;
 }
 
 rue::after {
@@ -82,6 +86,8 @@ rue::after {
 adresse::after {
 	content: '-----';
 	display: block;
+	font-size: 0.8em;
+	font-weight: 700;
 }
 
 ville {
@@ -100,11 +106,15 @@ pays::before {
 tel::before {
 	content: 'tel : ';
 	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
 }
 
 mail::before {
 	content: 'e-mail : ';
 	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
 }
 
 mail {
