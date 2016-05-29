@@ -50,8 +50,10 @@ nom {
 }
 
 naissance::before {
-	content: 'né le ';
+	content: 'né le : ';
 	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
 }
 
 naissance {
