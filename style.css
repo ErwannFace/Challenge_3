@@ -1,3 +1,4 @@
+/* structure du document */
 page {
 	font-family: sans-serif;
 }
@@ -25,4 +26,17 @@ article {
 
 section:first-child article {
 	max-width: 42.5%;
+}
+
+/* style du bloc "identite" */
+prenom {
+	text-transform: capitalize;
+}
+
+nom {
+	text-transform: uppercase;
+}
+
+naissance {
+	display: block;
 }
