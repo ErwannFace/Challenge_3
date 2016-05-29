@@ -31,18 +31,17 @@ section:first-child article {
 /* style du bloc "identite" */
 section:first-child {
 	min-height: 200px;
+	position: relative;
 }
 
 section:first-child article:first-child {
-	float: left;
+	position: absolute;
+	left: 5%;
 }
 
 section:first-child article:last-child {
-	float: right;
-}
-
-section:first-child article:last-child::after {
-	clear: both;
+	position: absolute;
+	right: 5%;
 }
 
 prenom {
