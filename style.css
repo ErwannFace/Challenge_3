@@ -38,6 +38,7 @@ section:first-child article {
 section:first-child article:first-child {
 	position: absolute;
 	left: 5%;
+	text-align: left;
 }
 
 prenom {
