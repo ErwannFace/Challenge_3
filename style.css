@@ -40,3 +40,17 @@ nom {
 naissance {
 	display: block;
 }
+
+/* style du bloc "contact" */
+rue,cp {
+	display: inline;
+}
+
+rue::after,cp::before {
+	content: '\00000A';
+	display: block;
+}
+
+pays,tel,mail {
+	display: block;
+}
