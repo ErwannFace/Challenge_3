@@ -55,3 +55,11 @@ adresse::after {
 	content: '-----';
 	display: block;
 }
+
+ville {
+	text-transform: capitalize;
+}
+
+pays {
+	text-transform: uppercase;
+}
