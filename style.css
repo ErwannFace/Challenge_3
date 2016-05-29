@@ -24,24 +24,20 @@ article {
 	border-radius: 4px;
 }
 
-section:first-child article {
-	max-width: 42.5%;
-}
-
-/* style du bloc "identite" */
+/* style de la première section (articles "identite" et "adresse") */
 section:first-child {
 	min-height: 200px;
 	position: relative;
 }
 
+section:first-child article {
+	max-width: 42.5%;
+}
+
+/* style du bloc "identite" */
 section:first-child article:first-child {
 	position: absolute;
 	left: 5%;
-}
-
-section:first-child article:last-child {
-	position: absolute;
-	right: 5%;
 }
 
 prenom {
@@ -67,6 +63,11 @@ site::before {
 }
 
 /* style du bloc "contact" */
+section:first-child article:last-child {
+	position: absolute;
+	right: 5%;
+}
+
 adresse::before {
 	content: 'adresse : ';
 	display: block;
