@@ -24,19 +24,26 @@
 			<contact>
 				<adresse>
 					<numero>
+						4
 					</numero>
 					<rue>
+						rue François-Désiré Roulin
 					</rue>
 					<cp>
+						35 700
 					</cp>
 					<ville>
+						Rennes
 					</ville>
 					<pays>
+						France
 					</pays>
 				</adresse>
 				<tel>
+					02 56 51 55 70
 				</tel>
 				<mail>
+					vv221@dotslashplay.it
 				</mail>
 			</contact>
 		</article>
