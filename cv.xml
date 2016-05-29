@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "cv.dtd">
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<page>
+	<section>
+		<article>
+			<identite>
+				<prenom>
+				</prenom>
+				<nom>
+				</nom>
+				<naissance>
+				</naissance>
+				<site>
+				</site>
+			</identite>
+		</article>
+		<article>
+			<contact>
+				<adresse>
+					<numero>
+					</numero>
+					<rue>
+					</rue>
+					<cp>
+					</cp>
+					<ville>
+					</ville>
+					<pays>
+					</pays>
+				</adresse>
+				<tel>
+				</tel>
+				<mail>
+				</mail>
+			</contact>
+		</article>
+	</section>
+	<section>
+		<article>
+			<formation>
+				<intitule>
+				</intitule>
+				<date>
+				</date>
+				<ecole>
+				</ecole>
+				<descriptif>
+				</descriptif>
+			</formation>
+		</article>
+	</section>
+	<section>
+		<article>
+			<experience>
+				<intitule>
+				</intitule>
+				<datedebut>
+				</datedebut>
+				<datefin>
+				</datefin>
+				<lieux>
+				</lieux>
+				<descriptif>
+				</descriptif>
+			</experience>
+		</article>
+	</section>
+</page>
