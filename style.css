@@ -26,8 +26,7 @@ article {
 
 /* style de la première section (articles "identite" et "adresse") */
 section:first-child {
-	min-height: 200px;
-	position: relative;
+	overflow: hidden;
 }
 
 section:first-child article {
@@ -36,8 +35,7 @@ section:first-child article {
 
 /* style du bloc "identite" */
 section:first-child article:first-child {
-	position: absolute;
-	left: 5%;
+	float: left;
 	text-align: left;
 }
 
@@ -69,8 +67,7 @@ site::before {
 
 /* style du bloc "contact" */
 section:first-child article:last-child {
-	position: absolute;
-	right: 5%;
+	float: right;
 	text-align: left;
 }
 
