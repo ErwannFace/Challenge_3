@@ -86,5 +86,43 @@
 				</descriptif>
 			</experience>
 		</article>
+		<article>
+			<experience>
+				<intitule>
+					travaux de ferme
+				</intitule>
+				<datedebut>
+					décembre 2011
+				</datedebut>
+				<datefin>
+					février 2012
+				</datefin>
+				<lieux>
+					Nouvelle-Galles du Sud et Queensland (Australie)
+				</lieux>
+				<descriptif>
+					WWOOF Australia - http://www.wwoof.com.au/
+				</descriptif>
+			</experience>
+		</article>
+		<article>
+			<experience>
+				<intitule>
+					travaux de ferme
+				</intitule>
+				<datedebut>
+					février 2012
+				</datedebut>
+				<datefin>
+					mars 2012
+				</datefin>
+				<lieux>
+					Karnataka (Inde)
+				</lieux>
+				<descriptif>
+					WWOOF India - http://www.wwoofindia.org/
+				</descriptif>
+			</experience>
+		</article>
 	</section>
 </page>
