@@ -136,18 +136,23 @@ mail {
 	display: block;
 }
 
-/* style du bloc "formation" */
-formation {
-	text-align: left;
-}
-
-formation * {
+/* style des blocs "formation" et "experience" */
+formation *, experience * {
 	display: block;
 }
 
 intitule {
 	text-align: center;
 	font-weight: 700;
+}
+
+descriptif {
+	font-weight: 300;
+}
+
+/* style du bloc "formation" */
+formation {
+	text-align: left;
 }
 
 date::before {
@@ -164,6 +169,21 @@ ecole::before {
 	font-weight: 700;
 }
 
-descriptif {
-	font-weight: 300;
+/* style du bloc "experience" */
+datedebut,datefin {
+	display: inline;
+}
+
+datedebut::before {
+	content: 'de : ';
+	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+datefin::before {
+	content: 'à : ';
+	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
 }
