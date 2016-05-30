@@ -170,6 +170,24 @@ ecole::before {
 }
 
 /* style du bloc "experience" */
+section:nth-child(3) article {
+	display: block;
+	max-width: 42.5%;
+	margin: 0 auto -3px auto;
+	border-top-style: dashed;
+	border-bottom-style: none;
+}
+
+section:nth-child(3) article:first-child {
+	margin-top: 20px;
+	border-top-style: solid;
+}
+
+section:nth-child(3) article:last-child {
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+}
+
 datedebut,datefin {
 	display: inline;
 }
