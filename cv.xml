@@ -125,4 +125,28 @@
 			</experience>
 		</article>
 	</section>
+	<section>
+		<article>
+			<competence>
+				<random>
+					"power user" GNU/Linux (Debian Sid comme système d’exploitation utilisé au quotidien)
+				</random>
+				<random>
+					maintenance logicielle en amateur sur systèmes Microsoft et GNU/Linux
+				</random>
+				<random>
+					maintenance et dépannage matériel
+				</random>
+				<random>
+					mise en place et maintenance de serveurs sécurisés (Web, mail, FTP, SSH)
+				</random>
+				<random>
+					programmation en Shell POSIX
+				</random>
+				<random>
+					ouverture de rapports de bug, en particulier pour des projets open source
+				</random>
+			</competence>
+		</article>
+	</section>
 </page>
