@@ -205,3 +205,19 @@ datefin::before {
 	font-size: 0.8em;
 	font-weight: 700;
 }
+
+/* style du bloc "competence" */
+section:nth-child(4) article {
+	max-width: 42.5%;
+}
+
+competence random {
+	display: block;
+}
+
+competence random::after {
+	display: block;
+	content: '-----';
+	font-size: 0.8em;
+	font-weight: 700;
+}
