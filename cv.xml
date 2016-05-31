@@ -70,16 +70,28 @@
 		<article>
 			<competence>
 				<random>
-					"power user" GNU/Linux (Debian Sid comme système d’exploitation utilisé au quotidien)
+					"power user" GNU/Linux
 				</random>
 				<random>
-					maintenance logicielle en amateur sur systèmes Microsoft et GNU/Linux
+					maintenance logicielle (Microsoft et GNU/Linux)
 				</random>
 				<random>
-					maintenance et dépannage matériel
+					dépannage matériel
 				</random>
 				<random>
-					mise en place et maintenance de serveurs sécurisés (Web, mail, FTP, SSH)
+					mise en place et maintenance de serveurs Web (nginx)
+				</random>
+				<random>
+					mise en place et maintenance de serveurs SMTP (postfix)
+				</random>
+				<random>
+					mise en place et maintenance de serveurs IMAP et POP (dovecot)
+				</random>
+				<random>
+					mise en place et maintenance de serveurs FTP (vsftp)
+				</random>
+				<random>
+					mise en place et maintenance de serveurs SSH (openSSH)
 				</random>
 				<random>
 					programmation en Shell POSIX
