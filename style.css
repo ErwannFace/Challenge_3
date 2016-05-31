@@ -172,12 +172,12 @@ section:nth-child(3) article {
 	border-bottom-style: none;
 }
 
-section:nth-child(3) article:first-child {
+section:nth-child(3) article:nth-child(2) {
 	margin-top: 20px;
 	border-top-style: solid;
 }
 
-section:nth-child(3) article:nth-last-child(-n+2) {
+section:nth-child(3) article:last-child {
 	margin-bottom: 20px;
 	border-bottom-style: solid;
 }
@@ -201,7 +201,7 @@ datefin::before {
 }
 
 /* style du bloc "competence" */
-section:nth-child(3) article:last-child {
+section:nth-child(3) article:first-child {
 	margin-top: 20px;
 	border-style: solid;
 }
