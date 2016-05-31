@@ -30,8 +30,8 @@ section:last-child {
 }
 
 article {
-	display: inline-block;
-	max-width: 90%;
+	display: block;
+	max-width: 42.5%;
 	margin: 10px auto;
 	padding: 20px;
 	background-color: #CDCDCD;
@@ -42,10 +42,6 @@ article {
 /* style de la première section (articles "identite" et "adresse") */
 section:first-child {
 	overflow: hidden;
-}
-
-section:first-child article {
-	max-width: 42.5%;
 }
 
 /* style du bloc "identite" */
@@ -171,8 +167,6 @@ ecole::before {
 
 /* style du bloc "experience" */
 section:nth-child(3) article {
-	display: block;
-	max-width: 42.5%;
 	margin: 0 auto -3px auto;
 	border-top-style: dashed;
 	border-bottom-style: none;
@@ -207,10 +201,6 @@ datefin::before {
 }
 
 /* style du bloc "competence" */
-section:nth-child(4) article {
-	max-width: 42.5%;
-}
-
 competence random {
 	display: block;
 }
