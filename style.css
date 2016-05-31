@@ -177,7 +177,7 @@ section:nth-child(3) article:first-child {
 	border-top-style: solid;
 }
 
-section:nth-child(3) article:last-child {
+section:nth-child(3) article:nth-last-child(-n+2) {
 	margin-bottom: 20px;
 	border-bottom-style: solid;
 }
@@ -201,6 +201,11 @@ datefin::before {
 }
 
 /* style du bloc "competence" */
+section:nth-child(3) article:last-child {
+	margin-top: 20px;
+	border-style: solid;
+}
+
 competence random {
 	display: block;
 }
