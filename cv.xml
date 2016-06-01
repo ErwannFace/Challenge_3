@@ -70,34 +70,34 @@
 		<article>
 			<competence>
 				<random>
-					"power user" GNU/Linux
+					administration de systèmes Microsoft
 				</random>
 				<random>
-					maintenance logicielle (Microsoft et GNU/Linux)
+					administration de systèmes GNU/Linux
 				</random>
 				<random>
-					dépannage matériel
+					administration de serveurs Web
 				</random>
 				<random>
-					mise en place et maintenance de serveurs Web (nginx)
+					administration de serveurs mail (SMTP, IMAP, POP)
 				</random>
 				<random>
-					mise en place et maintenance de serveurs SMTP (postfix)
+					administration de serveurs FTP
 				</random>
 				<random>
-					mise en place et maintenance de serveurs IMAP et POP (dovecot)
+					administration de serveurs SSH
 				</random>
 				<random>
-					mise en place et maintenance de serveurs FTP (vsftp)
-				</random>
-				<random>
-					mise en place et maintenance de serveurs SSH (openSSH)
+					maintenance matérielle
 				</random>
 				<random>
 					programmation en Shell POSIX
 				</random>
 				<random>
-					ouverture et suivi de rapports de bug, en particulier pour des projets open source
+					réalisation de sites Web en XML/HTML/XHTML et CSS
+				</random>
+				<random>
+					anglais lu, écrit, parlé
 				</random>
 			</competence>
 		</article>
