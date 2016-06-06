@@ -4,7 +4,10 @@
 <!--<?xml-stylesheet href="style.css" type="text/css"?>-->
 
 <page>
+
 	<section>
+
+		<!-- identité -->
 		<article>
 			<identite>
 				<prenom>
@@ -21,6 +24,8 @@
 				</site>
 			</identite>
 		</article>
+
+		<!-- contact -->
 		<article>
 			<contact>
 				<adresse>
@@ -48,8 +53,11 @@
 				</mail>
 			</contact>
 		</article>
+
 	</section>
 	<section>
+
+		<!-- formations -->
 		<article>
 			<formation>
 				<intitule>
@@ -66,8 +74,11 @@
 				</descriptif>
 			</formation>
 		</article>
+
 	</section>
 	<section>
+
+		<!-- compétences -->
 		<article>
 			<competence>
 				<random>
@@ -108,6 +119,8 @@
 				</random>
 			</competence>
 		</article>
+
+		<!-- expériences -->
 		<article>
 			<experience>
 				<intitule>
@@ -165,5 +178,7 @@
 				</descriptif>
 			</experience>
 		</article>
+
 	</section>
+
 </page>
