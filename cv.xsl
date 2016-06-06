@@ -2,11 +2,16 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<html>
+
 			<head>
 				<link href="style-alt.css" rel="stylesheet" type="text/css"/>
 			</head>
+
 			<body>
+
 				<section>
+
+					<!-- identité -->
 					<article>
 						<xsl:for-each select="page/section/article/identite">
 							<span class="capitalize"><xsl:value-of select="prenom"/></span>
@@ -15,6 +20,8 @@
 							<p>site web :</p><xsl:value-of select="site"/>
 						</xsl:for-each>
 					</article>
+
+					<!-- contact -->
 					<article>
 						<xsl:for-each select="page/section/article/contact">
 							<p>adresse :</p><br/>
@@ -29,8 +36,12 @@
 							<p>e-mail :</p><xsl:value-of select="mail"/>
 						</xsl:for-each>
 					</article>
+
 				</section>
+
 				<section>
+
+					<!-- formations -->
 					<article>
 						<xsl:for-each select="page/section/article/formation">
 							<h2><xsl:value-of select="intitule"/></h2>
@@ -39,14 +50,20 @@
 							<span class="small"><xsl:value-of select="descriptif"/></span>
 						</xsl:for-each>
 					</article>
+
 				</section>
+
 				<section>
+
+					<!-- compétences -->
 					<article>
 						<xsl:for-each select="page/section/article/competence/random">
 							<xsl:value-of select="."/>
 							<br/><p>-----</p><br/>
 						</xsl:for-each>
 					</article>
+
+					<!-- expériences -->
 					<xsl:for-each select="page/section/article/experience">
 						<article>
 							<h2><xsl:value-of select="intitule"/></h2>
@@ -56,7 +73,9 @@
 							<span class="small"><xsl:value-of select="descriptif"/></span>
 						</article>
 					</xsl:for-each>
+
 				</section>
+
 			</body>
 		</html>
 	</xsl:template>
