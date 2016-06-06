@@ -1,0 +1,106 @@
+/* structure du document */
+body {
+	font-family: sans-serif;
+}
+
+section {
+	display: block;
+	width: 90%;
+	margin: 0 auto -3px auto;
+	padding: 20px;
+	background-color: #F5F5F5;
+	border-width: 3px;
+	border-color:#E3E3E3;
+	border-top-style: dashed;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-radius: 15px;
+}
+
+article {
+	display: block;
+	max-width: 42.5%;
+	margin: 10px auto;
+	padding: 20px;
+	background-color: #CDCDCD;
+	border: 3px solid #BBBBBB;
+	border-radius: 15px;
+}
+
+/* style du texte */
+p {
+	display: inline;
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+.boring {
+	display: inline;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.small {
+	font-weight: 300;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1em;
+	margin: 0;
+	font-weight: 700;
+	display: block;
+}
+
+/* casse automatique */
+.capitalize {
+	text-transform: capitalize;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* style de la première section (articles "identite" et "adresse") */
+section:first-child {
+	overflow: hidden;
+	margin-top: 20px;
+	border-top-style: solid;
+}
+
+section:first-child article:first-child {
+	float: left;
+}
+
+section:first-child article:last-child {
+	float: right;
+}
+
+/* style de la dernière section (articles "competence" et "experience") */
+section:last-child {
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+}
+
+section:last-child article {
+	margin: 0 auto -3px auto;
+	border-top-style: dashed;
+	border-bottom-style: none;
+}
+
+section:last-child article:first-child {
+	margin-top: 20px;
+	border-style: solid;
+}
+
+section:last-child article:nth-child(2) {
+	margin-top: 20px;
+	border-top-style: solid;
+}
+
+section:last-child article:last-child {
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+}
