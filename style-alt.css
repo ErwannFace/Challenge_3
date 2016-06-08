@@ -64,17 +64,9 @@ h2 {
 
 /* style de la première section (articles "identite" et "adresse") */
 section:first-child {
-	overflow: hidden;
 	margin-top: 20px;
 	border-top-style: solid;
-}
-
-section:first-child article:first-child {
-	float: left;
-}
-
-section:first-child article:last-child {
-	float: right;
+	display: flex;
 }
 
 /* style de la dernière section (articles "competence" et "experience") */
