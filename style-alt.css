@@ -69,8 +69,15 @@ h2 {
 /* style de la première section (articles "identite" et "adresse") */
 section:first-child {
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: 20px;
 	border-top-style: solid;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
 }
 
 /* style de la dernière section (articles "competence" et "experience") */

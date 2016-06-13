@@ -11,6 +11,11 @@
 
 				<section>
 
+					<!-- intitulé du CV -->
+					<h1>
+						Développeur Web/mobile
+					</h1>
+
 					<!-- identité -->
 					<article>
 						<xsl:for-each select="page/section/article/identite">
