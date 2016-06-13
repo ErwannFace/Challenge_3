@@ -1,4 +1,8 @@
 /* structure du document */
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: sans-serif;
 }
@@ -64,35 +68,40 @@ h2 {
 
 /* style de la première section (articles "identite" et "adresse") */
 section:first-child {
+	display: flex;
 	margin-top: 20px;
 	border-top-style: solid;
-	display: flex;
 }
 
 /* style de la dernière section (articles "competence" et "experience") */
 section:last-child {
+	display: flex;
+	justify-content: space-around;
 	text-align: center;
 	margin-bottom: 20px;
 	border-bottom-style: solid;
 }
 
+section:last-child div {
+	width: 42.5%;
+}
+
 section:last-child article {
-	margin: 0 auto -3px auto;
+	max-width: 100%;
+	width: 100%;
+	margin: 0 0 -3px 0;
 	border-top-style: dashed;
 	border-bottom-style: none;
 }
 
-section:last-child article:first-child {
-	margin-top: 20px;
-	border-style: solid;
-}
-
-section:last-child article:nth-child(2) {
+section:last-child div:first-child article,
+section:last-child div:last-child article:first-child {
 	margin-top: 20px;
 	border-top-style: solid;
 }
 
-section:last-child article:last-child {
+section:last-child div:first-child article,
+section:last-child div:last-child article:last-child {
 	margin-bottom: 20px;
 	border-bottom-style: solid;
 }

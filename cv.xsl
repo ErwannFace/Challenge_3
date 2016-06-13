@@ -56,23 +56,27 @@
 				<section>
 
 					<!-- compétences -->
-					<article>
-						<xsl:for-each select="page/section/article/competence/random">
-							<xsl:value-of select="."/>
-							<br/><p>-----</p><br/>
-						</xsl:for-each>
-					</article>
+					<div>
+						<article>
+							<xsl:for-each select="page/section/article/competence/random">
+								<xsl:value-of select="."/>
+								<br/><p>-----</p><br/>
+							</xsl:for-each>
+						</article>
+					</div>
 
 					<!-- expériences -->
-					<xsl:for-each select="page/section/article/experience">
-						<article>
-							<h2><xsl:value-of select="intitule"/></h2>
-							<p>de :</p><xsl:value-of select="datedebut"/>
-							<p>à :</p><xsl:value-of select="datefin"/><br/>
-							<xsl:value-of select="lieux"/><br/>
-							<span class="small"><xsl:value-of select="descriptif"/></span>
-						</article>
-					</xsl:for-each>
+					<div>
+						<xsl:for-each select="page/section/article/experience">
+							<article>
+								<h2><xsl:value-of select="intitule"/></h2>
+								<p>de :</p><xsl:value-of select="datedebut"/>
+								<p>à :</p><xsl:value-of select="datefin"/><br/>
+								<xsl:value-of select="lieux"/><br/>
+								<span class="small"><xsl:value-of select="descriptif"/></span>
+							</article>
+						</xsl:for-each>
+					</div>
 
 				</section>
 
