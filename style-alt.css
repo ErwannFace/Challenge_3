@@ -75,12 +75,23 @@ section:first-child {
 
 /* style de la deuxième section (article "formation") */
 section:nth-child(2) div {
+	width: 50%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 }
 
 section:nth-child(2) article {
-	margin: 5px auto;
+	width: 100%;
+	margin-bottom: -3px;
+	border-top-style: dashed;
+	border-bottom-style: none;
+}
+section:nth-child(2) article:first-child {
+	border-top-style: solid;
+}
+section:nth-child(2) article:last-child {
+	border-bottom-style: solid;
 }
 
 /* style de la dernière section (articles "competence" et "experience") */
