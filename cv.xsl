@@ -19,26 +19,40 @@
 					<!-- identité -->
 					<article>
 						<xsl:for-each select="page/section/article/identite">
-							<span class="capitalize"><xsl:value-of select="prenom"/></span>
-							<span class="uppercase"><xsl:value-of select="nom"/></span><br/>
-							<p>né le :</p><xsl:value-of select="naissance"/><br/>
-							<p>site web :</p><xsl:value-of select="site"/>
+							<div>
+								<span class="capitalize"><xsl:value-of select="prenom"/></span>
+								<span class="uppercase"><xsl:value-of select="nom"/></span>
+							</div>
+							<div>
+								<p>né le :</p><xsl:value-of select="naissance"/>
+							</div>
+							<div>
+								<p>site web :</p><xsl:value-of select="site"/>
+							</div>
 						</xsl:for-each>
 					</article>
 
 					<!-- contact -->
 					<article>
 						<xsl:for-each select="page/section/article/contact">
-							<p>adresse :</p><br/>
-							<xsl:value-of select="adresse/numero"/>
-							<xsl:value-of select="adresse/rue"/><br/>
-							<xsl:value-of select="adresse/cp"/>
-							<span class="capitalize"><xsl:value-of select="adresse/ville"/></span>
-							<p class="boring"> - </p>
-							<span class="uppercase"><xsl:value-of select="adresse/pays"/></span><br/>
-							<p>-----</p><br/>
-							<p>tel :</p><xsl:value-of select="tel"/><br/>
-							<p>e-mail :</p><xsl:value-of select="mail"/>
+							<p>adresse :</p>
+							<div>
+								<xsl:value-of select="adresse/numero"/>
+								<xsl:value-of select="adresse/rue"/>
+							</div>
+							<div>
+								<xsl:value-of select="adresse/cp"/>
+								<span class="capitalize"><xsl:value-of select="adresse/ville"/></span>
+								<p class="boring"> - </p>
+								<span class="uppercase"><xsl:value-of select="adresse/pays"/></span>
+							</div>
+							<p>-----</p>
+							<div>
+								<p>tel :</p><xsl:value-of select="tel"/>
+							</div>
+							<div>
+								<p>e-mail :</p><xsl:value-of select="mail"/>
+							</div>
 						</xsl:for-each>
 					</article>
 

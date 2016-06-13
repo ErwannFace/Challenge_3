@@ -33,6 +33,7 @@ article {
 /* style du texte */
 p {
 	display: inline;
+	margin: 0;
 	font-size: 0.8em;
 	font-weight: 700;
 }
@@ -76,6 +77,12 @@ h1 {
 	width: 100%;
 	text-align: center;
 	font-size: 2em;
+}
+
+section:first-child article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /* style de la deuxième section (article "formation") */
