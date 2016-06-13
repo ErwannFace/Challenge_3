@@ -96,31 +96,31 @@
 		<article>
 			<competence>
 				<random>
-					systèmes Microsoft Windows
+					développement Web (XML/HTML/XHTML et CSS)
+				</random>
+				<random>
+					serveurs Web (nginx)
+				</random>
+				<random>
+					serveurs mail (postfix et dovecot)
+				</random>
+				<random>
+					serveurs FTP (vsftp)
+				</random>
+				<random>
+					serveurs SSH (OpenSSH)
 				</random>
 				<random>
 					systèmes GNU/Linux
 				</random>
 				<random>
-					serveur Web (nginx)
-				</random>
-				<random>
-					serveur mail (postfix et dovecot)
-				</random>
-				<random>
-					serveur FTP (vsftp)
-				</random>
-				<random>
-					serveur SSH (OpenSSH)
-				</random>
-				<random>
-					maintenance matérielle
+					systèmes Microsoft Windows
 				</random>
 				<random>
 					Shell POSIX
 				</random>
 				<random>
-					sites Web (XML/HTML/XHTML et CSS)
+					maintenance matérielle
 				</random>
 				<random>
 					support utilisateur
