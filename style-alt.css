@@ -88,9 +88,11 @@ section:nth-child(2) article {
 	border-bottom-style: none;
 }
 section:nth-child(2) article:first-child {
+	margin-top: 10px;
 	border-top-style: solid;
 }
 section:nth-child(2) article:last-child {
+	margin-bottom: 10px;
 	border-bottom-style: solid;
 }
 
