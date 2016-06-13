@@ -12,12 +12,9 @@ section {
 	margin: 0 auto -3px auto;
 	padding: 20px;
 	background-color: #F5F5F5;
-	border-width: 3px;
-	border-color:#E3E3E3;
+	border: 3px solid #E3E3E3;
 	border-top-style: dashed;
 	border-bottom-style: none;
-	border-left-style: solid;
-	border-right-style: solid;
 	border-radius: 15px;
 }
 section:first-child {
@@ -28,7 +25,7 @@ section:last-child {
 }
 
 article {
-	margin: 10px auto;
+	margin: auto;
 	padding: 20px;
 	background-color: #CDCDCD;
 	border: 3px solid #BBBBBB;
@@ -43,18 +40,24 @@ p {
 	font-weight: 700;
 }
 
+h1 {
+	width: 100%;
+	margin: 5px 0 20px 0;
+	text-align: center;
+	font-size: 2em;
+}
+
+h2 {
+	margin: 0 0 5px 0;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 700;
+}
+
 .small {
 	font-weight: 300;
 }
 
-h2 {
-	text-align: center;
-	font-size: 1em;
-	margin: 0 0 5px 0;
-	font-weight: 700;
-}
-
-/* casse automatique */
 .capitalize {
 	text-transform: capitalize;
 }
@@ -70,40 +73,30 @@ section:first-child {
 	margin-top: 20px;
 }
 
-h1 {
-	width: 100%;
-	margin: 5px 0 20px 0;
-	text-align: center;
-	font-size: 2em;
-}
-
-section:first-child article {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 /* style de la deuxième section (article "formation") */
 section:nth-child(2) div {
 	display: flex;
 	flex-direction: column;
 }
 
+section:nth-child(2) article {
+	margin: 5px auto;
+}
+
 /* style de la dernière section (articles "competence" et "experience") */
 section:last-child {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
 section:last-child div {
-	width: 42.5%;
+	margin: 5px auto;
 }
 
 section:last-child article {
-	max-width: 100%;
-	width: 100%;
 	margin: 0 0 -3px 0;
 	border-top-style: dashed;
 	border-bottom-style: none;
@@ -111,18 +104,12 @@ section:last-child article {
 
 section:last-child div:first-child article,
 section:last-child div:last-child article:first-child {
-	margin-top: 20px;
 	border-top-style: solid;
 }
 
 section:last-child div:first-child article,
 section:last-child div:last-child article:last-child {
-	margin-bottom: 20px;
 	border-bottom-style: solid;
-}
-
-section:last-child div:first-child article p {
-	font-weight: 700;
 }
 
 section:last-child div:first-child article p:nth-last-child(2) {
