@@ -80,7 +80,7 @@ h1 {
 section:first-child article {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 /* style de la deuxième section (article "formation") */
