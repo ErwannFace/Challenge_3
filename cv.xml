@@ -82,37 +82,37 @@
 		<article>
 			<competence>
 				<random>
-					administration de systèmes Microsoft
+					systèmes Microsoft Windows
 				</random>
 				<random>
-					administration de systèmes GNU/Linux
+					systèmes GNU/Linux
 				</random>
 				<random>
-					administration de serveurs Web
+					serveur Web (nginx)
 				</random>
 				<random>
-					administration de serveurs mail (SMTP, IMAP, POP)
+					serveur mail (postfix et dovecot)
 				</random>
 				<random>
-					administration de serveurs FTP
+					serveur FTP (vsftp)
 				</random>
 				<random>
-					administration de serveurs SSH
+					serveur SSH (OpenSSH)
 				</random>
 				<random>
 					maintenance matérielle
 				</random>
 				<random>
-					programmation en Shell POSIX
+					Shell POSIX
 				</random>
 				<random>
-					réalisation de sites Web en XML/HTML/XHTML et CSS
+					sites Web (XML/HTML/XHTML et CSS)
 				</random>
 				<random>
-					support utilisateur par forums et IRC
+					support utilisateur
 				</random>
 				<random>
-					modération de forums à haute fréquentation
+					modération de forums
 				</random>
 				<random>
 					anglais lu, écrit, parlé
@@ -124,26 +124,26 @@
 		<article>
 			<experience>
 				<intitule>
-					travaux de ferme
+					Bûcheron / Employé agricole
 				</intitule>
 				<datedebut>
-					février 2012
+					octobre 2011
 				</datedebut>
 				<datefin>
-					mars 2012
+					décembre 2011
 				</datefin>
 				<lieux>
-					Karnataka (Inde)
+					Ontario, Saskatchewan et Colombie Britannique (Canada)
 				</lieux>
 				<descriptif>
-					WWOOF India - http://www.wwoofindia.org/
+					WWOOF Canada - http://www.wwoof.ca/
 				</descriptif>
 			</experience>
 		</article>
 		<article>
 			<experience>
 				<intitule>
-					travaux de ferme
+					Employé agricole / Paysagiste
 				</intitule>
 				<datedebut>
 					décembre 2011
@@ -162,19 +162,38 @@
 		<article>
 			<experience>
 				<intitule>
-					bûcheron
+					Employé agricole
 				</intitule>
 				<datedebut>
-					octobre 2011
+					février 2012
 				</datedebut>
 				<datefin>
-					décembre 2011
+					mars 2012
 				</datefin>
 				<lieux>
-					Ontario, Saskatchewan et Colombie Britannique (Canada)
+					Karnataka (Inde)
 				</lieux>
 				<descriptif>
-					WWOOF Canada - http://www.wwoof.ca/
+					WWOOF India - http://www.wwoofindia.org/
+				</descriptif>
+			</experience>
+		</article>
+		<article>
+			<experience>
+				<intitule>
+					Facteur
+				</intitule>
+				<datedebut>
+					avril 2012
+				</datedebut>
+				<datefin>
+					décembre 2013
+				</datefin>
+				<lieux>
+					Chatelaudren (22, France)
+				</lieux>
+				<descriptif>
+					La Poste - https://www.laposte.fr/
 				</descriptif>
 			</experience>
 		</article>

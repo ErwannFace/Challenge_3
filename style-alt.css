@@ -105,3 +105,11 @@ section:last-child div:last-child article:last-child {
 	margin-bottom: 20px;
 	border-bottom-style: solid;
 }
+
+section:last-child div:first-child article p {
+	font-weight: 700;
+}
+
+section:last-child div:first-child article p:nth-last-child(2) {
+	visibility: hidden;
+}

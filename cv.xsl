@@ -60,7 +60,7 @@
 						<article>
 							<xsl:for-each select="page/section/article/competence/random">
 								<xsl:value-of select="."/>
-								<br/><p>-----</p><br/>
+								<br/><p>~~~~~</p><br/>
 							</xsl:for-each>
 						</article>
 					</div>
