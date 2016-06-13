@@ -23,8 +23,6 @@ section {
 }
 
 article {
-	display: block;
-	max-width: 42.5%;
 	margin: 10px auto;
 	padding: 20px;
 	background-color: #CDCDCD;
@@ -78,6 +76,12 @@ h1 {
 	width: 100%;
 	text-align: center;
 	font-size: 2em;
+}
+
+/* style de la deuxième section (article "formation") */
+section:nth-child(2) div {
+	display: flex;
+	flex-direction: column;
 }
 
 /* style de la dernière section (articles "competence" et "experience") */

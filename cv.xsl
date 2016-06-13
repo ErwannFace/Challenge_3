@@ -47,15 +47,17 @@
 				<section>
 
 					<!-- formations -->
-					<article>
+					<div>
 						<xsl:for-each select="page/section/article/formation">
-							<h2><xsl:value-of select="intitule"/></h2>
-							<p>date d’obtention :</p><xsl:value-of select="date"/><br/>
-							<p>délivré par :</p><xsl:value-of select="ecole"/><br/>
-							<span class="small"><xsl:value-of select="descriptif"/></span>
+							<article>
+								<h2><xsl:value-of select="intitule"/></h2>
+								<p>date d’obtention :</p><xsl:value-of select="date"/><br/>
+								<p>délivré par :</p><xsl:value-of select="ecole"/><br/>
+								<span class="small"><xsl:value-of select="descriptif"/></span>
+							</article>
 						</xsl:for-each>
-					</article>
-
+					</div>
+					
 				</section>
 
 				<section>
