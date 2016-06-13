@@ -9,27 +9,27 @@ body {
 
 section {
 	width: 90%;
-	margin: 0 auto -3px auto;
+	margin: 0 auto -1px auto;
 	padding: 20px;
 	background-color: #F5F5F5;
-	border: 3px solid #E3E3E3;
+	border: 1px solid #E3E3E3;
 	border-top-style: dashed;
 	border-bottom-style: none;
-	border-radius: 15px;
 }
 section:first-child {
 	border-top-style: solid;
+	border-top-left-radius: 15px;
 }
 section:last-child {
 	border-bottom-style: solid;
+	border-bottom-right-radius: 15px;
 }
 
 article {
 	margin: auto;
 	padding: 20px;
 	background-color: #CDCDCD;
-	border: 3px solid #BBBBBB;
-	border-radius: 15px;
+	border: 1px solid #BBBBBB;
 }
 
 /* style du texte */
@@ -38,6 +38,7 @@ p {
 	margin: 0;
 	font-size: 0.8em;
 	font-weight: 700;
+	color: #28802B;
 }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
 	margin: 5px 0 20px 0;
 	text-align: center;
 	font-size: 2em;
+	color: #28802B;
 }
 
 h2 {
@@ -52,6 +54,7 @@ h2 {
 	text-align: center;
 	font-size: 1em;
 	font-weight: 700;
+	color: #28802B;
 }
 
 .small {
@@ -73,6 +76,11 @@ section:first-child {
 	margin-top: 20px;
 }
 
+section:first-child article {
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
 /* style de la deuxième section (article "formation") */
 section:nth-child(2) div {
 	width: 50%;
@@ -83,17 +91,19 @@ section:nth-child(2) div {
 
 section:nth-child(2) article {
 	width: 100%;
-	margin-bottom: -3px;
+	margin-bottom: -1px;
 	border-top-style: dashed;
 	border-bottom-style: none;
 }
 section:nth-child(2) article:first-child {
 	margin-top: 10px;
 	border-top-style: solid;
+	border-top-left-radius: 15px;
 }
 section:nth-child(2) article:last-child {
 	margin-bottom: 10px;
 	border-bottom-style: solid;
+	border-bottom-right-radius: 15px;
 }
 
 /* style de la dernière section (articles "competence" et "experience") */
@@ -110,7 +120,7 @@ section:last-child div {
 }
 
 section:last-child article {
-	margin: 0 0 -3px 0;
+	margin: 0 0 -1px 0;
 	border-top-style: dashed;
 	border-bottom-style: none;
 }
@@ -118,11 +128,13 @@ section:last-child article {
 section:last-child div:first-child article,
 section:last-child div:last-child article:first-child {
 	border-top-style: solid;
+	border-top-left-radius: 15px;
 }
 
 section:last-child div:first-child article,
 section:last-child div:last-child article:last-child {
 	border-bottom-style: solid;
+	border-bottom-right-radius: 15px;
 }
 
 section:last-child div:first-child article p:nth-last-child(2) {
