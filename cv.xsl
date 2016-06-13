@@ -43,7 +43,7 @@
 							<div>
 								<xsl:value-of select="adresse/cp"/>
 								<span class="capitalize"><xsl:value-of select="adresse/ville"/></span>
-								<p class="boring"> - </p>
+								<p> - </p>
 								<span class="uppercase"><xsl:value-of select="adresse/pays"/></span>
 							</div>
 							<p>-----</p>

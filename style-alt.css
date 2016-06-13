@@ -8,7 +8,6 @@ body {
 }
 
 section {
-	display: block;
 	width: 90%;
 	margin: 0 auto -3px auto;
 	padding: 20px;
@@ -20,6 +19,12 @@ section {
 	border-left-style: solid;
 	border-right-style: solid;
 	border-radius: 15px;
+}
+section:first-child {
+	border-top-style: solid;
+}
+section:last-child {
+	border-bottom-style: solid;
 }
 
 article {
@@ -38,12 +43,6 @@ p {
 	font-weight: 700;
 }
 
-.boring {
-	display: inline;
-	font-size: 1em;
-	font-weight: 400;
-}
-
 .small {
 	font-weight: 300;
 }
@@ -51,9 +50,8 @@ p {
 h2 {
 	text-align: center;
 	font-size: 1em;
-	margin: 0;
+	margin: 0 0 5px 0;
 	font-weight: 700;
-	display: block;
 }
 
 /* casse automatique */
@@ -70,7 +68,6 @@ section:first-child {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 20px;
-	border-top-style: solid;
 }
 
 h1 {
@@ -98,7 +95,6 @@ section:last-child {
 	justify-content: space-around;
 	text-align: center;
 	margin-bottom: 20px;
-	border-bottom-style: solid;
 }
 
 section:last-child div {
