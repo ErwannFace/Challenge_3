@@ -18,42 +18,38 @@
 
 					<!-- identité -->
 					<article>
-						<xsl:for-each select="page/section/article/identite">
-							<div>
-								<span class="capitalize"><xsl:value-of select="prenom"/></span>
-								<span class="uppercase"><xsl:value-of select="nom"/></span>
-							</div>
-							<div>
-								<p>né le :</p><xsl:value-of select="naissance"/>
-							</div>
-							<div>
-								<p>site web :</p><xsl:value-of select="site"/>
-							</div>
-						</xsl:for-each>
+						<div>
+							<span class="capitalize"><xsl:value-of select="page/section/article/identite/prenom"/></span>
+							<span class="uppercase"><xsl:value-of select="page/section/article/identite/nom"/></span>
+						</div>
+						<div>
+							<p>né le :</p><xsl:value-of select="page/section/article/identite/naissance"/>
+						</div>
+						<div>
+							<p>site web :</p><xsl:value-of select="page/section/article/identite/site"/>
+						</div>
 					</article>
 
 					<!-- contact -->
 					<article>
-						<xsl:for-each select="page/section/article/contact">
-							<p>adresse :</p>
-							<div>
-								<xsl:value-of select="adresse/numero"/>
-								<xsl:value-of select="adresse/rue"/>
-							</div>
-							<div>
-								<xsl:value-of select="adresse/cp"/>
-								<span class="capitalize"><xsl:value-of select="adresse/ville"/></span>
-								<p style="color: black; font-size: 1em; font-weight: 400"> - </p>
-								<span class="uppercase"><xsl:value-of select="adresse/pays"/></span>
-							</div>
-							<p>-----</p>
-							<div>
-								<p>tel :</p><xsl:value-of select="tel"/>
-							</div>
-							<div>
-								<p>e-mail :</p><xsl:value-of select="mail"/>
-							</div>
-						</xsl:for-each>
+						<p>adresse :</p>
+						<div>
+							<xsl:value-of select="page/section/article/contact/adresse/numero"/>
+							<xsl:value-of select="page/section/article/contact/adresse/rue"/>
+						</div>
+						<div>
+							<xsl:value-of select="page/section/article/contact/adresse/cp"/>
+							<span class="capitalize"><xsl:value-of select="page/section/article/contact/adresse/ville"/></span>
+							<p style="color: black; font-size: 1em; font-weight: 400"> - </p>
+							<span class="uppercase"><xsl:value-of select="page/section/article/contact/adresse/pays"/></span>
+						</div>
+						<p>-----</p>
+						<div>
+							<p>tel :</p><xsl:value-of select="page/section/article/contact/tel"/>
+						</div>
+						<div>
+							<p>e-mail :</p><xsl:value-of select="page/section/article/contact/mail"/>
+						</div>
 					</article>
 
 				</section>
