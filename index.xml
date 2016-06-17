@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--<!DOCTYPE CV SYSTEM "cv.dtd">-->
+	<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<page>
+	<section>
+		<article>
+			<identite>
+				<prenom>Lise</prenom>
+				<nom>Poirier</nom>
+				<naissance>12/06/1991</naissance>
+				<site>lise-poirier.fr</site>
+			</identite>
+		</article>
+
+		<article>
+			<formation>
+				<intitule>Formation Qualifiante Développeuse</intitule>
+				<date>2017</date>
+				<ecole>FACE RENNES</ecole>
+			</formation>
+
+			<formation>
+				<intitule>Licence pro de Conception Graphique</intitule>
+				<date>2015</date>
+				<ecole>Université Rennes 2</ecole>
+			</formation>
+
+			<formation>
+				<intitule>Licence d'Arts Plastiques</intitule>
+				<date>2014</date>
+				<ecole>Université Rennes 2</ecole>
+			</formation>
+
+			<formation>
+				<intitule>Bac Pro AMA Communication Graphique</intitule>
+				<date>2010</date>
+				<ecole>St-Pierre-la-Joliverie</ecole>
+			</formation>
+
+			<formation>
+				<intitule>CAP d'éxécution Communication Graphique</intitule>
+				<date>2008</date>
+				<ecole>St-Pierre-la-Joliverie</ecole>
+			</formation>
+		</article>
+
+		<article>
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Avril 2016</datedebut>
+				<datefin>Avril 2016</datefin>
+				<lieux>POINT-CARDINAL / RENNES</lieux>
+				<descriptif>Création de communication print
+pour Gourmet Catolard,
+(flyer, plv, recettes, kakémono etc).
+Réalisation de modifications
+et d'éxécutions minutieuses. 
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Septembre 2015</datedebut>
+				<datefin>à Décembre 2015</datefin>
+				<lieux>HÉMISPHÈRE 4 / RENNES</lieux>
+				<descriptif>Création de logotypes
+et de signalétiques pour
+des pharmacies du Grand Ouest.
+Nouvelles approches
+graphiques de communication
+pour un secteur en manque.
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Juillet 2015</datedebut>
+				<datefin>à Aout 2015</datefin>
+				<lieux>POINT CARDINAL / RENNES</lieux>
+				<descriptif>Création de communication graphique,
+notamment dans le packaging,
+mais également de logotypes,
+d'un kakémono et de livret 16 pages.
+Réalisation d'éxécution pour Gourmet Catolard.
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Février 2015</datedebut>
+				<datefin>à Mars 2015</datefin>
+				<lieux>IMAGIC / RENNES</lieux>
+				<descriptif>Création de communication graphique,
+notamment des affiches,
+une chemise, des logotypes.
+Réalisation de travail d'éxécution graphique.
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Mars 2010</datedebut>
+				<datefin>à Mars 2010</datefin>
+				<lieux>ASSOC' JEAN DE LA MENNAIS / RENNES</lieux>
+				<descriptif>Création de flyers, d'identité visuelle
+et de communication graphique
+pour sensibiliser la jeunesse
+à certaines problématiques.
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Octobre 2009</datedebut>
+				<datefin>à Octobre 2009</datefin>
+				<lieux>CHU DE PONTCHAILLOU / RENNES</lieux>
+				<descriptif>Réalisations des plaques
+de portes de la maternité du CHU.
+Sensibilisation à la création de mascottes.
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Juin 2009</datedebut>
+				<datefin>à Juin 2009</datefin>
+				<lieux>CHU DU HAUT-ANJOU / CHÂTEAU-GONTIER</lieux>
+				<descriptif>Création du livret d'accueil du personnel
+et d'affiches de sensibilisations
+sur des thématiques de santé.
+			</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Janvier 2009</datedebut>
+				<datefin>à Janvier 2009</datefin>
+				<lieux>IMPRIM'SERVICES / LAVAL</lieux>
+				<descriptif>Création de petites travaux types
+cartes de voeux, dépliants,flyers etc.
+			</descriptif>
+			</experience>
+
+			<experience>
+<intitule>Graphiste Print</intitule>
+				<datedebut>Janvier 2009</datedebut>
+				<datefin>à Janvier 2009</datefin>
+				<lieux>STUDIO VERSION 2 / LAVAL</lieux>
+				<descriptif>Création de visuelles
+à destinations de site Web (Lactalis),
+mais également une approche
+de la gestion de projet aux travers
+de la participation à la mise-en-page
+d'un catalogue.
+			</descriptif>
+			</experience>	
+		</article>
+
+		<article>
+			<competence>
+				<random><titre>Communication interne + externe</titre></random>
+				<random><titre>Création de supports print</titre></random>
+				<random><titre>Gestion de projet + organisation</titre></random>
+				<random><titre>Bonne créativité + exécution</titre></random>
+				<random><titre>Culture Art graphique</titre></random>
+				<random><titre>Packaging</titre></random>
+				<random><titre>Dynamisme</titre></random>
+				<random><titre>Ponctuelle</titre></random>
+			</competence>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<custom> 
+				<autre><titre>Illustrator > 90%</titre></autre>
+				<autre><titre>Photoshop > 85%</titre></autre>
+				<autre><titre>Indesign > 75%</titre></autre>
+				<autre><titre>Wordpress > 10%</titre></autre>
+				<autre><titre>Gimp > 10%</titre></autre>
+				<autre><titre>HTML + CSS > 60%</titre></autre>
+				<autre><titre>Java Script > 0%</titre></autre>
+				<autre><titre>PHP > 0%</titre></autre>
+				<autre><titre>Bootstrap > 0%</titre></autre>
+				<autre><titre>Responsive Design > 10%</titre></autre>
+			</custom>
+		</article>
+
+		<article>
+			<contact>
+				<adresse>
+					<numero>5</numero>
+					<rue>allée du Tage</rue>
+					<cp>35200</cp>
+					<ville>Rennes</ville>
+				</adresse>
+				<tel>06 52 84 43 53</tel>
+				<mail>lise.p.poirier@gmail.com</mail>
+			</contact>
+		</article>
+	</section>		
+</page>
