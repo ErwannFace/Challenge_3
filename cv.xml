@@ -96,40 +96,49 @@
 		<article>
 			<competence>
 				<random>
-					développement Web (XML/HTML/XHTML et CSS)
+					Web statique (XML/HTML/XHTML et CSS)
 				</random>
 				<random>
-					serveurs Web (nginx)
+					Web dynamique (JavaScript)
 				</random>
 				<random>
-					serveurs mail (postfix et dovecot)
+					Bases de données (PHP et SQL)
 				</random>
 				<random>
-					serveurs FTP (vsftp)
+					Développement collaboratif (Git)
 				</random>
 				<random>
-					serveurs SSH (OpenSSH)
+					Serveurs Web (nginx)
 				</random>
 				<random>
-					systèmes GNU/Linux
+					Serveurs mail (postfix et dovecot)
 				</random>
 				<random>
-					systèmes Microsoft Windows
+					Serveurs FTP (vsftp)
+				</random>
+				<random>
+					Serveurs SSH (OpenSSH)
+				</random>
+				<random>
+					Systèmes GNU/Linux
+				</random>
+				<random>
+					Systèmes Microsoft Windows
 				</random>
 				<random>
 					Shell POSIX
 				</random>
 				<random>
-					maintenance matérielle
+					Maintenance matérielle
 				</random>
 				<random>
-					support utilisateur
+					Support utilisateur
 				</random>
 				<random>
-					modération de forums
+					Modération de forums
 				</random>
 				<random>
-					anglais lu, écrit, parlé
+					Anglais lu, écrit, parlé
 				</random>
 			</competence>
 		</article>
