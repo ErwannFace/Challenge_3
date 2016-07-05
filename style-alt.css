@@ -1,3 +1,11 @@
+/* style des bordures */
+
+article {
+	border-width: 2px;
+	border-color: #282B80;
+	border-bottom-left-radius: 15px;
+}
+
 /* structure du document */
 * {
 	box-sizing: border-box;
@@ -11,25 +19,25 @@ section {
 	width: 90%;
 	margin: 0 auto -1px auto;
 	padding: 20px;
-	background-color: #F5F5F5;
+	/*background-color: #F5F5F5;
 	border: 1px solid #E3E3E3;
 	border-top-style: dashed;
-	border-bottom-style: none;
+	border-bottom-style: none;*/
 }
-section:first-child {
+/*section:first-child {
 	border-top-style: solid;
 	border-top-left-radius: 15px;
 }
 section:last-child {
 	border-bottom-style: solid;
 	border-bottom-right-radius: 15px;
-}
+}*/
 
 article {
 	margin: auto;
 	padding: 20px;
-	background-color: #CDCDCD;
-	border: 1px solid #BBBBBB;
+	/*background-color: #CDCDCD;
+	border: 1px solid #BBBBBB;*/
 }
 
 /* style du texte */
@@ -77,8 +85,9 @@ section:first-child {
 }
 
 section:first-child article {
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+	/*border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;*/
+	border-bottom-style: solid;
 }
 
 /* style de la deuxième section (article "formation") */
@@ -92,18 +101,18 @@ section:nth-child(2) div {
 section:nth-child(2) article {
 	width: 100%;
 	margin-bottom: -1px;
-	border-top-style: dashed;
-	border-bottom-style: none;
+	/*border-top-style: dashed;
+	border-bottom-style: none;*/
 }
 section:nth-child(2) article:first-child {
 	margin-top: 10px;
-	border-top-style: solid;
-	border-top-left-radius: 15px;
+	/*border-top-style: solid;
+	border-top-left-radius: 15px;*/
 }
 section:nth-child(2) article:last-child {
 	margin-bottom: 10px;
 	border-bottom-style: solid;
-	border-bottom-right-radius: 15px;
+	/*border-bottom-right-radius: 15px;*/
 }
 
 /* style de la dernière section (articles "competence" et "experience") */
@@ -119,7 +128,7 @@ section:last-child div {
 	margin: 5px auto;
 }
 
-section:last-child article {
+/*section:last-child article {
 	margin: 0 0 -1px 0;
 	border-top-style: dashed;
 	border-bottom-style: none;
@@ -129,12 +138,12 @@ section:last-child div:first-child article,
 section:last-child div:last-child article:first-child {
 	border-top-style: solid;
 	border-top-left-radius: 15px;
-}
+}*/
 
 section:last-child div:first-child article,
 section:last-child div:last-child article:last-child {
 	border-bottom-style: solid;
-	border-bottom-right-radius: 15px;
+	/*border-bottom-right-radius: 15px;*/
 }
 
 section:last-child div:first-child article p:nth-last-child(2) {
