@@ -51,10 +51,14 @@ h1 small {
 	padding-left: 10px;
 }
 
+/* format des blocs */
+article {
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
 /* format des blocs de la première colonne */
 .container > section:nth-child(1) > article {
-	margin-bottom: 20px;
-	padding: 5px;
 	background-color: #E8E8E8;
 }
 .container > section:nth-child(1) > article > h3 {
@@ -72,8 +76,6 @@ h1 small {
 /* format des blocs des colonnes du centre et de droite */
 .container > section:nth-child(2) > article,
 .container > section:nth-child(3) > article {
-	margin-bottom: 20px;
-	padding: 5px;
 	background-color: #FFF;
 }
 .container > section:nth-child(2) > h2,
