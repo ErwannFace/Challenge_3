@@ -95,7 +95,7 @@ article {
 .container > section:nth-child(3) > article > h3 {
 	font-size: 1em;
 	font-weight: 600;
-	color: #000;
+	color: #FF5E00;
 }
 
 /* format des listes de la colonne de droite */
