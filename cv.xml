@@ -227,4 +227,76 @@
 		</paragraphe>
 	</competence>
 
+	<loisir>
+		<titre>
+			Lecture
+		</titre>
+		<paragraphe>
+			Science-Fiction (I. Asimov, F. Herbert, D. Simmons)
+		</paragraphe>
+		<paragraphe>
+			Uchronie (P. K. Dick, J. Fforde)
+		</paragraphe>
+		<paragraphe>
+			Fantasy (T. Pratchett)
+		</paragraphe>
+		<paragraphe>
+			Policier (A. C. Doyle, A. Christie)
+		</paragraphe>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Musique
+		</titre>
+		<paragraphe>
+			Guitariste (blues, jazz manouche, traditionnel celtique)
+		</paragraphe>
+		<paragraphe>
+			Bassiste (blues, rock, funk)
+		</paragraphe>
+		<paragraphe>
+			Chant choral (baryton et basse)
+		</paragraphe>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Jeux Vidéo
+		</titre>
+		<paragraphe>
+			RTS (Age of Empires, Warzone 2100, Dawn of War)
+		</paragraphe>
+		<paragraphe>
+			RPG (Planescape: Torment, Shadowrun Returns, Morrowind)
+		</paragraphe>
+		<paragraphe>
+			4X (Alpha Centauri)
+		</paragraphe>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Voyages
+		</titre>
+		<paragraphe>
+			Bénévolat, de préférence chez des particuliers
+		</paragraphe>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Sport
+		</titre>
+		<paragraphe>
+			Kayak
+		</paragraphe>
+		<paragraphe>
+			Voile sportive (catamaran, Laser, planche à voile)
+		</paragraphe>
+		<paragraphe>
+			V.T.T.
+		</paragraphe>
+	</loisir>
+
 </page>
