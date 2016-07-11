@@ -1,0 +1,102 @@
+/* style global du document */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans;
+}
+body > * {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* couleur de fond de la page */
+body {
+	background-color: #F2F2F2;
+}
+
+/* style du bandeau en tête de page */
+header {
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #302E2C;
+}
+h1,
+h1 small {
+	display: block;
+	font-weight: 400;
+	color: #FFF;
+}
+
+/* division de la page en trois colonnes */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.container > header {
+	width: 100%;
+}
+.container > section:nth-child(1) {
+	width: 20%;
+	padding-right: 10px;
+}
+.container > section:nth-child(2) {
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container > section:nth-child(3) {
+	width: 30%;
+	padding-left: 10px;
+}
+
+/* format des blocs de la première colonne */
+.container > section:nth-child(1) > article {
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #E8E8E8;
+}
+.container > section:nth-child(1) > article > h3 {
+	font-size: 0.9em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #50A3D9;
+}
+.container > section:nth-child(1) > article:first-child > div {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+}
+
+/* format des blocs des colonnes du centre et de droite */
+.container > section:nth-child(2) > article,
+.container > section:nth-child(3) > article {
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #FFF;
+}
+.container > section:nth-child(2) > h2,
+.container > section:nth-child(3) > h2 {
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #50A3D9;
+
+}
+.container > section > article > * {
+	display: block;
+	font-size: 0.8em;
+}
+.container > section:nth-child(2) > article > h3,
+.container > section:nth-child(3) > article > h3 {
+	font-size: 1em;
+	font-weight: 600;
+	color: #000;
+}
+
+/* format des listes de la colonne de droite */
+.container > section:nth-child(3) > article > ul {
+	padding-left: 10px;
+}
