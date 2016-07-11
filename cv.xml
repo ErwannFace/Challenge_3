@@ -1,226 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE CV SYSTEM "cv.dtd">
-<?xml-stylesheet href="cv.xsl" type="text/xsl"?>
-<!--<?xml-stylesheet href="style.css" type="text/css"?>-->
+<!--<?xml-stylesheet href="DoYouBuzz-classic.xsl" type="text/xsl"?>-->
 
 <page>
 
-	<section>
+	<intitule>
+		<nom>
+			Antoine Le Gonidec
+		</nom>
+		<poste>
+			Développeur Web/mobile
+		</poste>
+	</intitule>
 
-		<!-- identité -->
-		<article>
-			<identite>
-				<prenom>
-					antoine
-				</prenom>
-				<nom>
-					le gonidec
-				</nom>
-				<naissance>
-					22/11/1990
-				</naissance>
-				<site>
-					https://github.com/vv221/
-				</site>
-			</identite>
-		</article>
+	<contact>
+		<adresse>
+			<rue>
+				4, rue François-Désiré Roulin
+			</rue>
+			<codepostal>
+				35 700
+			</codepostal>
+			<ville>
+				Rennes
+			</ville>
+			<pays>
+				France
+			</pays>
+		</adresse>
+		<email>
+			vv221@dotslashplay.it
+		</email>
+		<telephone>
+			02 56 51 55 70
+		</telephone>
+	</contact>
 
-		<!-- contact -->
-		<article>
-			<contact>
-				<adresse>
-					<numero>
-						4
-					</numero>
-					<rue>
-						rue François-Désiré Roulin
-					</rue>
-					<cp>
-						35 700
-					</cp>
-					<ville>
-						rennes
-					</ville>
-					<pays>
-						france
-					</pays>
-				</adresse>
-				<tel>
-					02 56 51 55 70
-				</tel>
-				<mail>
-					vv221@dotslashplay.it
-				</mail>
-			</contact>
-		</article>
+	<presentation>
+		<paragraphe>
+			Développeur autodidacte et passionné, actuellement impliqué dans un
+			projet de développement logiciel (non lucratif), je cherche un emploi
+			durable dans le domaine du Web.
+		</paragraphe>
+	</presentation>
 
-	</section>
-	<section>
+	<liens>
+		<lien>
+			https://github.com/vv221/
+		</lien>
+		<lien>
+			http://wiki.dotslashplay.it/
+		</lien>
+	</liens>
 
-		<!-- formations -->
-		<article>
-			<formation>
-				<intitule>
-					Code Académie
-				</intitule>
-				<date>
-					en cours
-				</date>
-				<ecole>
-					Fondation Agir Contre l’Exclusion - Rennes (35)
-				</ecole>
-				<descriptif>
-					Formation de développeur Web/mobile
-				</descriptif>
-			</formation>
-			<formation>
-				<intitule>
-					Baccalauréat Scientifique
-				</intitule>
-				<date>
-					juin 2008
-				</date>
-				<ecole>
-					lycée Jean XXIII - Quintin (22)
-				</ecole>
-				<descriptif>
-					spécialité Mathématiques
-				</descriptif>
-			</formation>
-		</article>
+	<experience>
+		<titre>
+			Facteur
+		</titre>
+		<structure>
+			La Poste - https://www.laposte.fr/
+		</structure>
+		<date>
+			d’avril 2012 à décembre 2013
+		</date>
+		<lieu>
+			Chatelaudren (22, France)
+		</lieu>
+	</experience>
 
-	</section>
-	<section>
+	<experience>
+		<titre>
+			Employé agricole
+		</titre>
+		<structure>
+			WWOOF India - http://www.wwoofindia.org/
+		</structure>
+		<date>
+			de février 2012 à mars 2012
+		</date>
+		<lieu>
+			Karnataka (Inde)
+		</lieu>
+	</experience>
 
-		<!-- compétences -->
-		<article>
-			<competence>
-				<random>
-					Web statique (XML/HTML/XHTML et CSS)
-				</random>
-				<random>
-					Web dynamique (JavaScript)
-				</random>
-				<random>
-					Bases de données (PHP et SQL)
-				</random>
-				<random>
-					Développement collaboratif (Git)
-				</random>
-				<random>
-					Serveurs Web (nginx)
-				</random>
-				<random>
-					Serveurs mail (postfix et dovecot)
-				</random>
-				<random>
-					Serveurs FTP (vsftp)
-				</random>
-				<random>
-					Serveurs SSH (OpenSSH)
-				</random>
-				<random>
-					Systèmes GNU/Linux
-				</random>
-				<random>
-					Systèmes Microsoft Windows
-				</random>
-				<random>
-					Shell POSIX
-				</random>
-				<random>
-					Maintenance matérielle
-				</random>
-				<random>
-					Support utilisateur
-				</random>
-				<random>
-					Modération de forums
-				</random>
-				<random>
-					Anglais lu, écrit, parlé
-				</random>
-			</competence>
-		</article>
+	<experience>
+		<titre>
+			Employé agricole / Paysagiste
+		</titre>
+		<structure>
+			WWOOF Australia - http://www.wwoof.com.au/
+		</structure>
+		<date>
+			de décembre 2011 à février 2012
+		</date>
+		<lieu>
+			New South Wales et Queensland (Australie)
+		</lieu>
+	</experience>
 
-		<!-- expériences -->
-		<article>
-			<experience>
-				<intitule>
-					Bûcheron / Employé agricole
-				</intitule>
-				<datedebut>
-					octobre 2011
-				</datedebut>
-				<datefin>
-					décembre 2011
-				</datefin>
-				<lieux>
-					Ontario, Saskatchewan et British Columbia (Canada)
-				</lieux>
-				<descriptif>
-					WWOOF Canada - http://www.wwoof.ca/
-				</descriptif>
-			</experience>
-		</article>
-		<article>
-			<experience>
-				<intitule>
-					Employé agricole / Paysagiste
-				</intitule>
-				<datedebut>
-					décembre 2011
-				</datedebut>
-				<datefin>
-					février 2012
-				</datefin>
-				<lieux>
-					New South Wales et Queensland (Australie)
-				</lieux>
-				<descriptif>
-					WWOOF Australia - http://www.wwoof.com.au/
-				</descriptif>
-			</experience>
-		</article>
-		<article>
-			<experience>
-				<intitule>
-					Employé agricole
-				</intitule>
-				<datedebut>
-					février 2012
-				</datedebut>
-				<datefin>
-					mars 2012
-				</datefin>
-				<lieux>
-					Karnataka (Inde)
-				</lieux>
-				<descriptif>
-					WWOOF India - http://www.wwoofindia.org/
-				</descriptif>
-			</experience>
-		</article>
-		<article>
-			<experience>
-				<intitule>
-					Facteur
-				</intitule>
-				<datedebut>
-					avril 2012
-				</datedebut>
-				<datefin>
-					décembre 2013
-				</datefin>
-				<lieux>
-					Chatelaudren (22, France)
-				</lieux>
-				<descriptif>
-					La Poste - https://www.laposte.fr/
-				</descriptif>
-			</experience>
-		</article>
+	<experience>
+		<titre>
+			Bûcheron / Employé agricole
+		</titre>
+		<structure>
+			WWOOF Canada - http://www.wwoof.ca/
+		</structure>
+		<date>
+			d’octobre 2011 à décembre 2011
+		</date>
+		<lieu>
+			Ontario, Saskatchewan et British Columbia (Canada)
+		</lieu>
+	</experience>
 
-	</section>
+	<formation>
+		<titre>
+			Code Académie
+		</titre>
+		<structure>
+			Fondation Agir Contre l’Exclusion - Rennes (35)
+		</structure>
+		<date>
+			depuis mai 2016, en cours
+		</date>
+		<paragraphe>
+			Formation de développeur Web/mobile
+		</paragraphe>
+	</formation>
+
+	<formation>
+		<titre>
+			Baccalauréat Scientifique
+		</titre>
+		<structure>
+			lycée Jean XXIII - Quintin (22)
+		</structure>
+		<date>
+			juin 2008
+		</date>
+		<paragraphe>
+			Spécialité Mathématiques
+		</paragraphe>
+	</formation>
+
+	<competence>
+		<titre>
+			Développement Web
+		</titre>
+		<paragraphe>
+			XML, HTML, HTML
+		</paragraphe>
+		<paragraphe>
+			CSS, Bootstrap
+		</paragraphe>
+		<paragraphe>
+			JavaScript, VanillaJS
+		</paragraphe>
+		<paragraphe>
+			PHP
+		</paragraphe>
+		<paragraphe>
+			SQL, MySQL
+		</paragraphe>
+	</competence>
+
+	<competence>
+		<titre>
+			Développement
+		</titre>
+		<paragraphe>
+			Git, Github
+		</paragraphe>
+		<paragraphe>
+			Shell POSIX
+		</paragraphe>
+	</competence>
+
+	<competence>
+		<titre>
+			Administration
+		</titre>
+		<paragraphe>
+			Systèmes GNU/Linux
+		</paragraphe>
+		<paragraphe>
+			Systèmes Microsoft Windows
+		</paragraphe>
+		<paragraphe>
+			Serveur Web (nginx)
+		</paragraphe>
+		<paragraphe>
+			Serveur mail (postfix et dovecot)
+		</paragraphe>
+		<paragraphe>
+			Serveur FTP (vsftp)
+		</paragraphe>
+		<paragraphe>
+			Serveur SSH (OpenSSH)
+		</paragraphe>
+	</competence>
+
+	<competence>
+		<titre>
+			Support
+		</titre>
+		<paragraphe>
+			Maintenance matérielle
+		</paragraphe>
+		<paragraphe>
+			Support utilisateur
+		</paragraphe>
+		<paragraphe>
+			Modération de forums
+		</paragraphe>
+	</competence>
+
+	<competence>
+		<titre>
+			Langues
+		</titre>
+		<paragraphe>
+			Français maternel
+		</paragraphe>
+		<paragraphe>
+			Anglais lu, écrit, parlé
+		</paragraphe>
+	</competence>
 
 </page>
