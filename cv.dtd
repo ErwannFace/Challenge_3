@@ -1,37 +1,26 @@
 <!DOCTYPE CV [
-<!ELEMENT page (section* article*)>
-<!ELEMENT section (article*)>
-<!ELEMENT article (identite?, contact?, custom*, competence*, formation*, experience*, hobbie*, titre*)>
-<!ELEMENT titre (#PCDATA)>
-<!ELEMENT identite (prenom, nom, naissance, site?)>
-	<!ELEMENT prenom (#PCDATA)>
-	<!ELEMENT nom (#PCDATA)>
-	<!ELEMENT naissance (#PCDATA)>
-	<!ELEMENT site (#PCDATA)>
-<!ELEMENT contact (adresse, tel, mail)>
-	<!ELEMENT adresse (numero, rue, cp, ville, pays?)>
-		<!ELEMENT numero (#PCDATA)>
-		<!ELEMENT rue (#PCDATA)>
-		<!ELEMENT cp (#PCDATA)>
-		<!ELEMENT ville (#PCDATA)>
-		<!ELEMENT pays (#PCDATA)>
-	<!ELEMENT tel (#PCDATA)>
-	<!ELEMENT mail (#PCDATA)>
-<!ELEMENT custom (autre*)>
-	<!ELEMENT autre (#PCDATA)>
-<!ELEMENT competence (random*)>
-	<!ELEMENT random (#PCDATA)>
-<!ELEMENT formation (intitule*, date*, ecole*, descriptif*)>
-	<!ELEMENT intitule (#PCDATA)>
-	<!ELEMENT date (#PCDATA)>
-	<!ELEMENT ecole (#PCDATA)>
-	<!ELEMENT descriptif (#PCDATA)>
-<!ELEMENT experience (intitule*, datedebut*, datefin*, lieux*, descriptif*)>
-	<!ELEMENT datedebut (#PCDATA)>
-	<!ELEMENT datefin (#PCDATA)>
-	<!ELEMENT lieux (#PCDATA)>
-<!ELEMENT hobbie (#PCDATA)>
-<!ELEMENT image (#PCDATA)>
-<!ELEMENT **** EMPTY>
-	<!ATTTLIST photo source CDATA #REQUIRED>
+<!ELEMENT page (intitule?, contact?, presentation?, liens?, experience*, formation*, competence*, loisir*)>
+	<!ELEMENT intitule (nom, poste)>
+		<!ELEMENT nom (#PCDATA)>
+		<!ELEMENT poste (#PCDATA)>
+	<!ELEMENT contact (adresse, email, telephone)>
+		<!ELEMENT adresse (rue, codepostal, ville, pays)>
+			<!ELEMENT rue (#PCDATA)>
+			<!ELEMENT codepostal (#PCDATA)>
+			<!ELEMENT ville (#PCDATA)>
+			<!ELEMENT pays (#PCDATA)>
+		<!ELEMENT email (#PCDATA)>
+		<!ELEMENT telephone (#PCDATA)>
+	<!ELEMENT presentation (paragraphe*)>
+		<!ELEMENT paragraphe (#PCDATA)>
+	<!ELEMENT liens (lien*)>
+		<!ELEMENT lien (#PCDATA)>
+	<!ELEMENT experience (titre, structure, date, paragraphe*, lieu)>
+		<!ELEMENT titre (#PCDATA)>
+		<!ELEMENT structure (#PCDATA)>
+		<!ELEMENT date (#PCDATA)>
+		<!ELEMENT lieu (#PCDATA)>
+	<!ELEMENT formation (titre, structure, date, paragraphe*)>
+	<!ELEMENT competence (titre, paragraphe*)>
+	<!ELEMENT loisir (titre, paragraphe*)>
 ]>
