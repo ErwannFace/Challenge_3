@@ -4,7 +4,7 @@
 		<html>
 
 			<head>
-				<!--<link href="DoYouBuzz-classic.css" rel="stylesheet" type="text/css"/>-->
+				<link href="DoYouBuzz-classic.css" rel="stylesheet" type="text/css"/>
 			</head>
 
 			<body>
