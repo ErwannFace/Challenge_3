@@ -18,9 +18,9 @@ body {
 /* style du bandeau en tête de page */
 header {
 	margin-bottom: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #302E2C;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #00B2B2;
 }
 h1,
 h1 small {
@@ -65,7 +65,7 @@ article {
 	font-size: 0.9em;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #50A3D9;
+	color: #00B2B2;
 }
 .container > section:nth-child(1) > article:first-child > div {
 	margin-bottom: 5px;
@@ -84,7 +84,7 @@ article {
 	font-size: 1.2em;
 	font-weight: 400;
 	text-transform: uppercase;
-	color: #50A3D9;
+	color: #00B2B2;
 
 }
 .container > section > article > * {
