@@ -57,6 +57,17 @@
 	</reseau>
 	<reseau>
 		<description>
+			LinkedIn
+		</description>
+		<lien>
+			https://www.linkedin.com/in/antoine-le-gonidec-b49296122
+		</lien>
+		<image>
+			img/linkedin.png
+		</image>
+	</reseau>
+	<reseau>
+		<description>
 			./play.it
 		</description>
 		<lien>
