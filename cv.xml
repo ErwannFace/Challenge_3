@@ -167,7 +167,7 @@
 			Code Académie
 		</titre>
 		<structure>
-			Fondation Agir Contre l’Exclusion - Rennes (35)
+			Fondation Agir Contre l’Exclusion
 		</structure>
 		<lien>
 			http://face.bzh/
@@ -181,6 +181,9 @@
 		<paragraphe>
 			Formation de développeur Web/mobile
 		</paragraphe>
+		<lieu>
+			Rennes (35)
+		</lieu>
 	</formation>
 
 	<formation>
@@ -188,7 +191,7 @@
 			Baccalauréat Scientifique
 		</titre>
 		<structure>
-			lycée Jean XXIII - Quintin (22)
+			lycée Jean XXIII
 		</structure>
 		<lien>
 			https://www.jean23-quintin.net/
@@ -202,147 +205,268 @@
 		<paragraphe>
 			Spécialité Mathématiques
 		</paragraphe>
+		<lieu>
+			Quintin (22)
+		</lieu>
 	</formation>
 
 	<competence>
 		<titre>
 			Développement Web
 		</titre>
-		<paragraphe>
-			XML, HTML, XHTML
-		</paragraphe>
-		<paragraphe>
-			CSS, Bootstrap
-		</paragraphe>
-		<paragraphe>
-			JavaScript, VanillaJS, jQuery
-		</paragraphe>
-		<paragraphe>
-			PHP
-		</paragraphe>
-		<paragraphe>
-			SQL, MySQL
-		</paragraphe>
+		<item>
+			<paragraphe>
+				XML, HTML5, XHTML
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				CSS3
+			</paragraphe>
+			<detail>
+				Bootstrap
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				JavaScript
+			</paragraphe>
+			<detail>
+				VanillaJS, jQuery
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				PHP
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				SQL
+			</paragraphe>
+			<detail>
+				MySQL, MariaDB
+			</detail>
+		</item>
 	</competence>
 
 	<competence>
 		<titre>
 			Développement
 		</titre>
-		<paragraphe>
-			Git, Github
-		</paragraphe>
-		<paragraphe>
-			Shell POSIX
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Git
+			</paragraphe>
+			<detail>
+				Github
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Shell POSIX
+			</paragraphe>
+		</item>
 	</competence>
 
 	<competence>
 		<titre>
 			Administration
 		</titre>
-		<paragraphe>
-			Systèmes GNU/Linux
-		</paragraphe>
-		<paragraphe>
-			Systèmes Microsoft Windows
-		</paragraphe>
-		<paragraphe>
-			Serveur Web (nginx)
-		</paragraphe>
-		<paragraphe>
-			Serveur mail (postfix et dovecot)
-		</paragraphe>
-		<paragraphe>
-			Serveur FTP (vsftp)
-		</paragraphe>
-		<paragraphe>
-			Serveur SSH (OpenSSH)
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Systèmes GNU/Linux
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Systèmes Microsoft Windows
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur Web
+			</paragraphe>
+			<detail>
+				nginx
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur mail
+			</paragraphe>
+			<detail>
+				sendmail, postfix, dovecot
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur FTP
+			</paragraphe>
+			<detail>
+				vsftp
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur SSH
+			</paragraphe>
+			<detail>
+				OpenSSH
+			</detail>
+		</item>
 	</competence>
 
 	<competence>
 		<titre>
 			Langues
 		</titre>
-		<paragraphe>
-			Français maternel
-		</paragraphe>
-		<paragraphe>
-			Anglais lu, écrit, parlé
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Français maternel
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Anglais lu, écrit, parlé
+			</paragraphe>
+		</item>
 	</competence>
 
 	<loisir>
 		<titre>
 			Lecture
 		</titre>
-		<paragraphe>
-			Science-Fiction (I. Asimov, F. Herbert, D. Simmons)
-		</paragraphe>
-		<paragraphe>
-			Uchronie (P. K. Dick, J. Fforde)
-		</paragraphe>
-		<paragraphe>
-			Fantasy (T. Pratchett)
-		</paragraphe>
-		<paragraphe>
-			Policier (A. C. Doyle, A. Christie)
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Science-Fiction
+			</paragraphe>
+			<detail>
+				I. Asimov, F. Herbert, D. Simmons
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Uchronie
+			</paragraphe>
+			<detail>
+				P. K. Dick, J. Fforde
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Fantasy
+			</paragraphe>
+			<detail>
+				T. Pratchett
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Policier
+			</paragraphe>
+			<detail>
+				A. C. Doyle, A. Christie
+			</detail>
+		</item>
 	</loisir>
 
 	<loisir>
 		<titre>
 			Musique
 		</titre>
-		<paragraphe>
-			Guitariste (blues, jazz manouche, traditionnel celtique)
-		</paragraphe>
-		<paragraphe>
-			Bassiste (blues, rock, funk)
-		</paragraphe>
-		<paragraphe>
-			Chant choral (baryton et basse)
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Guitariste
+			</paragraphe>
+			<detail>
+				blues, jazz manouche, traditionnel celtique
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Bassiste
+			</paragraphe>
+			<detail>
+				blues, rock, funk
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Chant choral
+			</paragraphe>
+			<detail>
+				baryton et basse
+			</detail>
+		</item>
 	</loisir>
 
 	<loisir>
 		<titre>
 			Jeux Vidéo
 		</titre>
-		<paragraphe>
-			RTS (Age of Empires, Warzone 2100, Dawn of War)
-		</paragraphe>
-		<paragraphe>
-			RPG (Planescape: Torment, Shadowrun Returns, Morrowind)
-		</paragraphe>
-		<paragraphe>
-			4X (Alpha Centauri)
-		</paragraphe>
+		<item>
+			<paragraphe>
+				RTS
+			</paragraphe>
+			<detail>
+				Age of Empires, Warzone 2100, Dawn of War
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				RPG
+			</paragraphe>
+			<detail>
+				Planescape: Torment, Shadowrun Returns, Morrowind
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				4X
+			</paragraphe>
+			<detail>
+				Alpha Centauri
+			</detail>
+		</item>
 	</loisir>
 
 	<loisir>
 		<titre>
 			Voyages
 		</titre>
-		<paragraphe>
-			Bénévolat, de préférence chez des particuliers
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Bénévolat
+			</paragraphe>
+			<detail>
+				de préférence chez des particuliers
+			</detail>
+		</item>
 	</loisir>
 
 	<loisir>
 		<titre>
 			Sport
 		</titre>
-		<paragraphe>
-			Kayak
-		</paragraphe>
-		<paragraphe>
-			Voile sportive (catamaran, Laser, planche à voile)
-		</paragraphe>
-		<paragraphe>
-			V.T.T.
-		</paragraphe>
+		<item>
+			<paragraphe>
+				Kayak
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Voile sportive
+			</paragraphe>
+			<detail>
+				catamaran, Laser, planche à voile
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				V.T.T.
+			</paragraphe>
+		</item>
 	</loisir>
 
 </page>
