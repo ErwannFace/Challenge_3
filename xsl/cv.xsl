@@ -20,11 +20,11 @@
 
 				<div class="container">
 
-					<section>
+					<section class="whoami">
 						<!-- contact -->
 						<article>
 							<h3>Contact</h3>
-							<div>
+							<div class="address">
 								<p><xsl:value-of select="page/contact/adresse/rue"/></p>
 								<p><xsl:value-of select="page/contact/adresse/codepostal"/>
 								<xsl:value-of select="page/contact/adresse/ville"/></p>
@@ -41,7 +41,7 @@
 							</xsl:for-each>
 						</article>
 						<!-- liens -->
-						<article>
+						<article class="network">
 							<h3>Liens</h3>
 							<xsl:for-each select="page/reseau">
 								<a href="{lien}"><xsl:value-of select="description"/></a>
@@ -49,7 +49,7 @@
 						</article>
 					</section>
 
-					<section>
+					<section class="work">
 						<!-- expériences -->
 						<h2>Expériences</h2>
 						<xsl:for-each select="page/experience">
@@ -77,7 +77,7 @@
 						</xsl:for-each>
 					</section>
 
-					<section>
+					<section class="skills">
 						<!-- compétences -->
 						<h2>Compétences</h2>
 						<xsl:for-each select="page/competence">
