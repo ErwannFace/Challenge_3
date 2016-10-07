@@ -36,7 +36,7 @@
 							<p><xsl:value-of select="page/contact/telephone"/></p>
 						</article>
 						<!-- présentation -->
-						<article>
+						<article class="presentation">
 							<h3>Présentation</h3>
 							<xsl:for-each select="page/presentation">
 								<p><xsl:value-of select="paragraphe"/></p>
@@ -57,7 +57,7 @@
 						<xsl:for-each select="page/experience">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
-								<a href="{lien}"><xsl:value-of select="structure"/></a>
+								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/><span class="printonly"> - <xsl:value-of select="lien"/></span></p></a>
 								<p><xsl:value-of select="date"/></p>
 								<xsl:for-each select="paragraphe">
 									<p><xsl:value-of select="."/></p>

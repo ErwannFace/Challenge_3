@@ -1,5 +1,23 @@
-/* format de la section de présentation */
+@media screen {
+	.printonly {
+		display: none !important;
+	}
+}
+
 @media print {
+	.screenonly {
+		display: none !important;
+	}
+	* {
+		color: #000 !important;
+	}
+	header, .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	article {
+		padding: 0;
+	}
 	.whoami {
 		width: 100%;
 		display: flex;
@@ -7,25 +25,15 @@
 	}
 	.whoami article {
 		margin-right: 1rem;
-		max-width: 40%;
+		max-width: 50%;
 	}
-}
-
-/* gestion de la version imprimable */
-@media screen {
-	.printonly {
-		display: none !important;
+	.presentation {
+		text-align: justify;
 	}
-	header, .container {
-		padding-left: 5%;
-		padding-right: 5%;
+	.network {
+		display: none;
 	}
-}
-@media print {
-	.screenonly {
-		display: none !important;
-	}
-	* {
-		color: #000 !important;
+	.work a {
+		padding: 0;
 	}
 }

@@ -77,6 +77,9 @@
 		<lien>
 			https://www.laposte.fr/
 		</lien>
+		<image>
+			img/laposte.png
+		</image>
 		<date>
 			d’avril 2012 à décembre 2013
 		</date>
@@ -95,6 +98,9 @@
 		<lien>
 			http://www.wwoofindia.org/
 		</lien>
+		<image>
+			img/wwoof.png
+		</image>
 		<date>
 			de février 2012 à mars 2012
 		</date>
@@ -113,6 +119,9 @@
 		<lien>
 			http://www.wwoof.com.au/
 		</lien>
+		<image>
+			img/wwoof.png
+		</image>
 		<date>
 			de décembre 2011 à février 2012
 		</date>
@@ -131,6 +140,9 @@
 		<lien>
 			http://www.wwoof.ca/
 		</lien>
+		<image>
+			img/wwoof.png
+		</image>
 		<date>
 			d’octobre 2011 à décembre 2011
 		</date>
