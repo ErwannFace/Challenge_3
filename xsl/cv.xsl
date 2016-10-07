@@ -43,10 +43,10 @@
 							</xsl:for-each>
 						</article>
 						<!-- liens -->
-						<article class="network">
+						<article class="network screenonly">
 							<h3>Réseau</h3>
 							<xsl:for-each select="page/reseau">
-								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="description"/><span class="printonly"> - <xsl:value-of select="lien"/></span></p></a>
+								<a href="{lien}"><img src="{image}" /><p><xsl:value-of select="description"/></p></a>
 							</xsl:for-each>
 						</article>
 					</section>
@@ -57,7 +57,7 @@
 						<xsl:for-each select="page/experience">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
-								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/><span class="printonly"> - <xsl:value-of select="lien"/></span></p></a>
+								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/></p></a>
 								<p><xsl:value-of select="date"/></p>
 								<xsl:for-each select="paragraphe">
 									<p><xsl:value-of select="."/></p>
@@ -70,7 +70,7 @@
 						<xsl:for-each select="page/formation">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
-								<p><xsl:value-of select="structure"/></p>
+								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/></p></a>
 								<p><xsl:value-of select="date"/></p>
 								<xsl:for-each select="paragraphe">
 									<p><xsl:value-of select="."/></p>

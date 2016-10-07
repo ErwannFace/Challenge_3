@@ -1,9 +1,3 @@
-@media screen {
-	.printonly {
-		display: none !important;
-	}
-}
-
 @media print {
 	.screenonly {
 		display: none !important;
@@ -29,9 +23,6 @@
 	}
 	.presentation {
 		text-align: justify;
-	}
-	.network {
-		display: none;
 	}
 	.work a {
 		padding: 0;

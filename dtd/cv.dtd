@@ -22,7 +22,7 @@
 		<!ELEMENT structure (#PCDATA)>
 		<!ELEMENT date (#PCDATA)>
 		<!ELEMENT lieu (#PCDATA)>
-	<!ELEMENT formation (titre, structure, date, paragraphe*)>
+	<!ELEMENT formation (titre, structure, lien, image, date, paragraphe*)>
 	<!ELEMENT competence (titre, paragraphe*)>
 	<!ELEMENT loisir (titre, paragraphe*)>
 ]>
