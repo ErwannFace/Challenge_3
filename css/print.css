@@ -1,0 +1,31 @@
+/* format de la section de présentation */
+@media print {
+	.whoami {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.whoami article {
+		margin-right: 1rem;
+		max-width: 40%;
+	}
+}
+
+/* gestion de la version imprimable */
+@media screen {
+	.printonly {
+		display: none !important;
+	}
+	header, .container {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+@media print {
+	.screenonly {
+		display: none !important;
+	}
+	* {
+		color: #000 !important;
+	}
+}

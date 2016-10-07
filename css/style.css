@@ -56,52 +56,6 @@ article {
 }
 
 /* format de la section de présentation */
-@media screen and (max-width: 1099px) {
-	.whoami {
-		font-size: 0.75rem;
-	}
-}
-@media screen and (min-width: 1100px) {
-	.whoami {
-		font-size: 0.8rem;
-	}
-}
-@media screen and (max-width: 767px) {
-	.whoami {
-		width: 100%;
-	}
-	.whoami article {
-		display: block;
-	}
-}
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-	.whoami {
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-	}
-	.whoami article {
-		margin-right: 1rem;
-		max-width: 40%;
-	}
-}
-@media screen and (min-width: 1280px) {
-	.whoami {
-		width: 20%;
-		padding-right: 10px;
-	}
-}
-@media print {
-	.whoami {
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-	}
-	.whoami article {
-		margin-right: 1rem;
-		max-width: 40%;
-	}
-}
 .whoami article {
 	background-color: #00b2b2;
 	color: #fff;
@@ -154,23 +108,4 @@ article {
 /* format des listes de la colonne de droite */
 .skills ul {
 	padding-left: 10px;
-}
-
-/* gestion de la version imprimable */
-@media screen {
-	.printonly {
-		display: none !important;
-	}
-	header, .container {
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-}
-@media print {
-	.screenonly {
-		display: none !important;
-	}
-	* {
-		color: #000 !important;
-	}
 }

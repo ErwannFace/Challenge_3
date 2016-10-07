@@ -5,6 +5,8 @@
 
 			<head>
 				<link href="css/style.css" rel="stylesheet" type="text/css"/>
+				<link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+				<link href="css/print.css" rel="stylesheet" type="text/css"/>
 			</head>
 
 			<body>
