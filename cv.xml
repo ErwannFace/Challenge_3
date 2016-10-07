@@ -44,22 +44,33 @@
 		</paragraphe>
 	</presentation>
 
-	<liens>
+	<reseau>
+		<description>
+			GitHub
+		</description>
 		<lien>
 			https://github.com/vv221/
 		</lien>
+	</reseau>
+	<reseau>
+		<description>
+			./play.it
+		</description>
 		<lien>
 			http://wiki.dotslashplay.it/
 		</lien>
-	</liens>
+	</reseau>
 
 	<experience>
 		<titre>
 			Facteur
 		</titre>
 		<structure>
-			La Poste - https://www.laposte.fr/
+			La Poste
 		</structure>
+		<lien>
+			https://www.laposte.fr/
+		</lien>
 		<date>
 			d’avril 2012 à décembre 2013
 		</date>
@@ -73,8 +84,11 @@
 			Employé agricole
 		</titre>
 		<structure>
-			WWOOF India - http://www.wwoofindia.org/
+			WWOOF India
 		</structure>
+		<lien>
+			http://www.wwoofindia.org/
+		</lien>
 		<date>
 			de février 2012 à mars 2012
 		</date>
@@ -88,8 +102,11 @@
 			Employé agricole / Paysagiste
 		</titre>
 		<structure>
-			WWOOF Australia - http://www.wwoof.com.au/
+			WWOOF Australia
 		</structure>
+		<lien>
+			http://www.wwoof.com.au/
+		</lien>
 		<date>
 			de décembre 2011 à février 2012
 		</date>
@@ -103,8 +120,11 @@
 			Bûcheron / Employé agricole
 		</titre>
 		<structure>
-			WWOOF Canada - http://www.wwoof.ca/
+			WWOOF Canada
 		</structure>
+		<lien>
+			http://www.wwoof.ca/
+		</lien>
 		<date>
 			d’octobre 2011 à décembre 2011
 		</date>
