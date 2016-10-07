@@ -13,9 +13,10 @@
 		<!ELEMENT telephone (#PCDATA)>
 	<!ELEMENT presentation (paragraphe*)>
 		<!ELEMENT paragraphe (#PCDATA)>
-	<!ELEMENT reseau (description, lien)>
+	<!ELEMENT reseau (description, lien, image)>
 		<!ELEMENT description (#PCDATA)>
 		<!ELEMENT lien (#PCDATA)>
+		<!ELEMENT image (#PCDATA)>
 	<!ELEMENT experience (titre, structure, lien, date, paragraphe*, lieu)>
 		<!ELEMENT titre (#PCDATA)>
 		<!ELEMENT structure (#PCDATA)>

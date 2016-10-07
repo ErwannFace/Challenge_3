@@ -42,9 +42,9 @@
 						</article>
 						<!-- liens -->
 						<article class="network">
-							<h3>Liens</h3>
+							<h3>Réseau</h3>
 							<xsl:for-each select="page/reseau">
-								<a href="{lien}"><xsl:value-of select="description"/></a>
+								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="description"/><span class="printonly"> - <xsl:value-of select="lien"/></span></p></a>
 							</xsl:for-each>
 						</article>
 					</section>

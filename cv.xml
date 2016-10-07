@@ -51,6 +51,9 @@
 		<lien>
 			https://github.com/vv221/
 		</lien>
+		<image>
+			img/github.png
+		</image>
 	</reseau>
 	<reseau>
 		<description>
@@ -59,6 +62,9 @@
 		<lien>
 			http://wiki.dotslashplay.it/
 		</lien>
+		<image>
+			img/playit.png
+		</image>
 	</reseau>
 
 	<experience>
