@@ -80,6 +80,27 @@
 
 	<experience>
 		<titre>
+			Administrateur Système Linux
+		</titre>
+		<structure>
+			Havas Digital Factory
+		</structure>
+		<lien>
+			http://www.havasdigitalfactory.com/
+		</lien>
+		<image>
+			img/havas.png
+		</image>
+		<date>
+			de mai 2017 à août 2017
+		</date>
+		<lieu>
+			Rennes (35, France)
+		</lieu>
+	</experience>
+
+	<experience>
+		<titre>
 			Facteur
 		</titre>
 		<structure>
