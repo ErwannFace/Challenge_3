@@ -263,6 +263,9 @@
 			<paragraphe>
 				PHP
 			</paragraphe>
+			<detail>
+				Symfony 2/3, Silex
+			</detail>
 		</item>
 		<item>
 			<paragraphe>
@@ -283,7 +286,7 @@
 				Git
 			</paragraphe>
 			<detail>
-				Github
+				Github, Gitlab
 			</detail>
 		</item>
 		<item>
@@ -301,6 +304,9 @@
 			<paragraphe>
 				Systèmes GNU/Linux
 			</paragraphe>
+			<detail>
+				Debian, Ubuntu, Arch Linux, CentOS
+			</detail>
 		</item>
 		<item>
 			<paragraphe>
@@ -312,7 +318,7 @@
 				Serveur Web
 			</paragraphe>
 			<detail>
-				nginx
+				nginx, Apache
 			</detail>
 		</item>
 		<item>
