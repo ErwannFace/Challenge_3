@@ -60,9 +60,9 @@
 					</section>
 					
 					<section class="work">
-						<!-- formations -->
-						<h2>Formations</h2>
-						<xsl:for-each select="page/formation">
+						<!-- expériences -->
+						<h2>Expériences</h2>
+						<xsl:for-each select="page/experience">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
 								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/></p></a>
@@ -73,9 +73,9 @@
 								<p><xsl:value-of select="lieu"/></p>
 							</article>
 						</xsl:for-each>
-						<!-- expériences -->
-						<h2>Expériences</h2>
-						<xsl:for-each select="page/experience">
+						<!-- formations -->
+						<h2>Formations</h2>
+						<xsl:for-each select="page/formation">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
 								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/></p></a>
