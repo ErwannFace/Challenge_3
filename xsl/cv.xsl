@@ -36,8 +36,7 @@
 							<h3>Contact</h3>
 							<div class="address">
 								<p><xsl:value-of select="page/contact/adresse/rue"/></p>
-								<p><xsl:value-of select="page/contact/adresse/codepostal"/>
-								<xsl:value-of select="page/contact/adresse/ville"/></p>
+								<p xml:space="preserve"><xsl:value-of select="page/contact/adresse/codepostal"/> <xsl:value-of select="page/contact/adresse/ville"/></p>
 								<p><xsl:value-of select="page/contact/adresse/pays"/></p>
 							</div>
 							<a href="mailto:{page/contact/email}"><xsl:value-of select="page/contact/email"/></a>
@@ -54,7 +53,7 @@
 						<article class="network screenonly">
 							<h3>Réseau</h3>
 							<xsl:for-each select="page/reseau">
-								<a href="{lien}"><img src="{image}" /><p><xsl:value-of select="description"/></p></a>
+								<a href="{lien}"><img src="{image}" /><p xml:space="preserve"> <xsl:value-of select="description"/></p></a>
 							</xsl:for-each>
 						</article>
 					</section>
@@ -65,7 +64,7 @@
 						<xsl:for-each select="page/experience">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
-								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/></p></a>
+								<a href="{lien}"><img src="{image}" class="screenonly" /><p xml:space="preserve"> <xsl:value-of select="structure"/></p></a>
 								<p><xsl:value-of select="date"/></p>
 								<xsl:for-each select="paragraphe">
 									<p><xsl:value-of select="."/></p>
@@ -78,7 +77,7 @@
 						<xsl:for-each select="page/formation">
 							<article>
 								<h3><xsl:value-of select="titre"/></h3>
-								<a href="{lien}"><img src="{image}" class="screenonly" /><p><xsl:value-of select="structure"/></p></a>
+								<a href="{lien}"><img src="{image}" class="screenonly" /><p xml:space="preserve"> <xsl:value-of select="structure"/></p></a>
 								<p><xsl:value-of select="date"/></p>
 								<xsl:for-each select="paragraphe">
 									<p><xsl:value-of select="."/></p>

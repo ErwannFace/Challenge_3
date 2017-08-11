@@ -1,4 +1,3 @@
-<!DOCTYPE CV [
 <!ELEMENT page (intitule?, contact?, presentation?, liens?, experience*, formation*, competence*, loisir*)>
 	<!ELEMENT intitule (nom, poste)>
 		<!ELEMENT nom (#PCDATA)>
@@ -27,4 +26,3 @@
 		<!ELEMENT item (paragraphe, detail)>
 			<!ELEMENT detail (#PCDATA)>
 	<!ELEMENT loisir (titre, item*)>
-]>
